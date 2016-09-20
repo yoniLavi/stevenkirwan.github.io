@@ -1,0 +1,26 @@
+{
+  "name": "stream-1-project",
+  "version": "1.0.0",
+  "description": "Project for code institute stream 1 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenkirwan/stevenkirwan.github.io.git"
+  },
+  "keywords": [
+    "codeinstitute",
+    "stream1",
+    "frontend",
+    "angularjs",
+    "SASS"
+  ],
+  "author": "Steven Kirwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenkirwan/stevenkirwan.github.io/issues"
+  },
+  "homepage": "https://github.com/stevenkirwan/stevenkirwan.github.io#readme"
+}
