@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/stevenkirwan/stevenkirwan.github.io#readme",
   "devDependencies": {
+    "bower": "^1.7.9",
     "browser-sync": "^2.16.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",

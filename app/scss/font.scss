@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Oswald:300,400,700);
+
+// Font Variables
+$oswald: 'Oswald', sans-serif;   
+$droid-serif: 'Droid Serif', serif;
+
+body{
+	font-family:$droid-serif;
+	font-weight:400;
+	font-size: 15px;
+    line-height: 18px;
+    color:$black;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:$oswald;
+	font-weight: 700;
+    text-transform: uppercase;
+    @include margin(10px null 10px null);
+}
+
+

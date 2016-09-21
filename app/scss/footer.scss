@@ -1,0 +1,21 @@
+footer{
+	color:$white;
+	.footer-top{
+		background: $grey;
+		@include padding(20px null 20px null);
+	}
+
+	.footer-bottom{
+		background: $black;
+		@include padding(20px null 20px null);
+		.social{
+			li{
+				display:inline-block;
+				@include padding(null 10px null null);
+				a{
+					color:$white;
+				}
+			}
+		}
+	}
+}

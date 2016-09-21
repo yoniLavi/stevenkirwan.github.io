@@ -1,0 +1,30 @@
+{
+  "name": "stream-1-project",
+  "description": "Project for code institute stream 1 project",
+  "main": "index.js",
+  "authors": [
+    "Steven Kirwan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "codeinstitute",
+    "stream1",
+    "frontend",
+    "angularjs",
+    "SASS"
+  ],
+  "homepage": "https://github.com/stevenkirwan/stevenkirwan.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
