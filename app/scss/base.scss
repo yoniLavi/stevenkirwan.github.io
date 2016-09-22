@@ -8,11 +8,80 @@ img{
 	width:100%;
 }
 
+p{
+    @include margin(15px null 15px null);	
+}
+
 input{
-	width:100%;
+    border: 1px solid rgba(137, 137, 137, 0.5);
+    border-radius: 0;
+	color:$black;
 	display:block;
+	font-size: em(16);
+    font-weight: 300;
+    @include margin(null null 15px null);
+    outline: 0 none;
+    @include padding(12px);
+	width:100%;
+}
+
+input[type="submit"]{
+	background:$black;
+	border: 1px solid $black;
+	color:$white;
+	font-family:$montserrat;
+	font-weight:bold;
 }
 
 label{
 	display:block;
+}
+
+strong{
+	font-weight:700;
+	font-family:$montserrat;
+}
+
+.arrow-list{
+	li{
+		@include padding(null null 10px null);
+		&:before{
+			content:'\f0da';
+			font-family: FontAwesome;
+			@include margin(null 10px null null);
+		}
+		a{
+			color:$white;
+			font-weight:bold;
+			&:hover{
+				text-decoration: none;
+			}
+			span{
+				color:$light-grey;
+				display: block;
+				font-size: em(12);
+				font-style: italic;
+				@include margin(null null null 15px);
+			}
+		}
+	}
+}
+
+.btn{
+	background:$black;
+	color:$white;
+	font-family:$montserrat;
+	font-weight:bold;
+	@include margin(20px null null null);
+	&:hover{
+		color:$white;
+	}
+}
+
+.white{
+	background:$white;
+	color:$black;
+	&:hover{
+		color:$black;
+	}
 }

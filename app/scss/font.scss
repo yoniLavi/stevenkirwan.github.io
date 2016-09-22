@@ -1,23 +1,51 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,700);
 
 // Font Variables
-$oswald: 'Oswald', sans-serif;   
-$droid-serif: 'Droid Serif', serif;
+$montserrat: 'Montserrat', sans-serif;   
+$cardo: 'Cardo', serif;
 
 body{
-	font-family:$droid-serif;
-	font-weight:400;
-	font-size: 15px;
-    line-height: 18px;
     color:$black;
+	font-family:$cardo;
+	font-size: em(16);
+	line-height: em(18);
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:$oswald;
-	font-weight: 700;
-    text-transform: uppercase;
+	font-family:$montserrat;
     @include margin(10px null 10px null);
+    text-transform: uppercase;
+}
+
+h1{
+	font-size: em(36);
+	line-height: em(36);
+}
+
+h2{
+	font-size: em(32);
+	line-height: em(32);
+}
+
+h3{
+	font-size: em(28);
+	line-height: em(30);
+}
+
+h4{
+	font-size: em(20);
+	line-height: em(24);
+}
+
+h5{
+	font-size: em(18);
+	line-height: em(20);
+}
+
+h6{
+	font-size: em(16);
+	line-height: em(18);
 }
 
 

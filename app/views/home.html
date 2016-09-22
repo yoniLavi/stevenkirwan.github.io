@@ -1,48 +1,33 @@
-<section class="intro">
-	<div class="col-md-10">
-		<h2>Lorem ipsum</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim delectus porro magnam, tempora officia facilis rem corporis repellendus laborum. Impedit ullam quasi quia ex amet, adipisci ad cumque ratione!</p>
-	</div>
-	<div class="col-md-2">
-		<a href="#">Learn more</a>
-	</div>
-</section>
+<div class="container">
 
-<section class="band">
-	<div class="col-md-3">
-		<figure>
-				<img src="http://placehold.it/350x150" alt="">
-				<figcaption>John Doe <span>Guitarist</span></figcaption>
-		</figure>
-	</div>
-	<div class="col-md-3">
-		<figure>
-				<img src="http://placehold.it/350x150" alt="">
-				<figcaption>John Doe <span>Guitarist</span></figcaption>
-		</figure>
-	</div>
-	<div class="col-md-3">
-		<figure>
-				<img src="http://placehold.it/350x150" alt="">
-				<figcaption>John Doe <span>Guitarist</span></figcaption>
-		</figure>
-	</div>
-	<div class="col-md-3">
-		<figure>
-				<img src="http://placehold.it/350x150" alt="">
-				<figcaption>John Doe <span>Guitarist</span></figcaption>
-		</figure>
-	</div>
-</section>
+	<section class="intro">
+		<div class="col-md-10">
+			<h2>{{ siteContent.intro[0].title }}</h2>
+			<p>{{ siteContent.intro[0].text }}</p>
+			<a ng-href="/#/band" class="btn">Learn more</a>
+		</div>
+	</section>
 
-<section class="book">
-	<div class="col-md-12">
-		<h3>Book Us</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, explicabo, voluptatibus. Ipsum voluptates vitae dolor ratione, repellat reiciendis ex minus at assumenda magni, non, tenetur nostrum cum perspiciatis voluptatum dolorem.</p>
-		<a href="#">Book Now</a>
-	</div>
-</section>
+	<section class="band row">
+		<div class="col-md-12"><h3>Band Members</h3></div>
+		<div class="col-md-3" ng-repeat="member in siteContent.members">
+			<figure>
+				<a ng-href="/#/member/{{ member.id }}"><img src="http://placehold.it/350x400" alt=""></a>
+				<figcaption>{{ member.name }} <span>{{ member.instrument}}</span></figcaption>
+			</figure>
+		</div>
+	</section>
 
-<section class="music"></section>
+	<section class="book text-center">
+		<div class="col-md-12">
+			<h3>Book Us</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, explicabo, voluptatibus. Ipsum voluptates vitae dolor ratione, repellat reiciendis ex minus at assumenda magni, non, tenetur nostrum cum perspiciatis voluptatum dolorem.</p>
+			<a ng-href="/#/contact" class="btn white">Book Now</a>
+		</div>
+	</section>
 
-<section class="gigs"></section>
+	<section class="music"></section>
+
+	<section class="gigs"></section>
+
+</div>

@@ -1,5 +1,6 @@
 footer{
-	color:$white;
+	color:$light-grey;
+	@include margin(40px null null null);
 	.footer-top{
 		background: $grey;
 		@include padding(20px null 20px null);
@@ -9,6 +10,8 @@ footer{
 		background: $black;
 		@include padding(20px null 20px null);
 		.social{
+		position:absolute;
+		right:0;
 			li{
 				display:inline-block;
 				@include padding(null 10px null null);

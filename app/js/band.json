@@ -1,0 +1,62 @@
+{	
+	"intro":[
+		{
+			"title":"Lorem ipsum",
+	        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim delectus porro magnam, tempora officia facilis rem corporis repellendus laborum. Impedit ullam quasi quia ex amet, adipisci ad cumque ratione!",
+	        "url":"#"
+		}
+	],
+	"music":[
+		{
+			"songtitle": "",
+			"album":"",
+			"price": 1.99
+		}
+	],
+	"gigs":[
+		{
+			"location": "Dublin, Ireland",
+			"venue": "The Point",
+			"date": "12/09/2017",
+			"ticket":"http://www.ticketmaster.ie/"
+		}
+	],
+	"members":[
+		{
+			"id":"1",
+			"name":"Jimmy Page",
+			"instrument": "Guitar",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo debitis dicta perspiciatis, ut, accusamus architecto. Sequi ab assumenda, quisquam iure aut. Officiis rem recusandae quia commodi, sequi, nobis perspiciatis officia.",
+			"birthdate": "12/22/1986"
+		},
+		{
+			"id":"2",
+			"name":"John Bonham",
+			"instrument": "Drums",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero totam reprehenderit enim assumenda. Dolorem, unde est laborum nihil sunt hic quo repellat in numquam accusamus aut molestiae blanditiis? Enim.",
+			"birthdate": "12/22/1986"
+		},
+		{
+			"id":"3",
+			"name":"John Paul Jones",
+			"instrument": "Bass",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta non voluptatem. Numquam et voluptatem aperiam animi, in exercitationem nam, provident mollitia consectetur, doloribus, deserunt quo? Porro incidunt tempore quae?",
+			"birthdate": "12/22/1986"
+		},
+		{
+			"id":"4",
+			"name":"Robert Plant",
+			"instrument": "Vocals",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum distinctio numquam, modi maiores dolorem ex qui necessitatibus odio incidunt sint tempore hic, tempora molestias ipsam impedit beatae. Ducimus, voluptate.",
+			"birthdate": "12/22/1986"
+		}
+	],
+	"bio":[
+		{
+			"band-image":"http://placehold.it/1200x400",
+			"para1":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas.",
+			"para2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas.",
+			"para3":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas."
+		}
+	]
+}

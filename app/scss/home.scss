@@ -1,0 +1,28 @@
+.intro{
+	background:$white;
+	float:left;
+	@include margin(35px null 35px null);
+	@include padding(10px 15px 35px 15px);
+}
+
+.band{
+	figcaption{
+		font-family:$montserrat;
+		font-size: em(20);
+		font-weight:bold;
+		@include margin(15px null 10px 10px);
+		span{
+			display:block;
+			font-size: em(12);
+			@include margin(5px null null null);
+		}
+	}
+}
+
+.book{
+	background:$black;
+	color:$white;
+	float:left;
+	@include margin(35px null 35px null);
+	@include padding(10px 15px 35px 15px);
+}
