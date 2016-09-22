@@ -7,7 +7,7 @@ bandApp.controller('HomeController', function($scope, $http) {
 });
 
 bandApp.controller('BandController', function($scope, $http) {
-    $scope.title = "Band Members";
+    $scope.title = "About the band";
 
     $http.get("js/band.json").then(function (response) {
 		$scope.siteContent = response.data;
