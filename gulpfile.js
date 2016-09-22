@@ -43,6 +43,12 @@ gulp.task('images', function(){
   .pipe(gulp.dest('dist/images'))
 });
 
+gulp.task('copy', function () {
+        return gulp.src(['app/views/**/*'], {
+            base: 'app'
+        }).pipe(gulp.dest('dist'));
+    });
+
 gulp.task('clean:dist', function() {
   return del.sync('dist');
 })
@@ -52,9 +58,10 @@ gulp.task('watch', ['browserSync', 'sass'], function (){
   gulp.watch('app/*.html', browserSync.reload); 
   gulp.watch('app/js/**/*.js', browserSync.reload); 
 });
+
 gulp.task('build', function (callback) {
   runSequence('clean:dist', 
-    ['sass', 'useref', 'images'],
+    ['sass', 'useref', 'images', 'copy'],
     callback
   )
 })
