@@ -1,9 +1,8 @@
 {	
 	"intro":[
 		{
-			"title":"Lorem ipsum",
-	        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugit labore laborum assumenda repellat cupiditate sit, voluptas dicta natus quae possimus rem illo odio ullam, sint facilis quas pariatur commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim delectus porro magnam, tempora officia facilis rem corporis repellendus laborum. Impedit ullam quasi quia ex amet, adipisci ad cumque ratione!",
-	        "url":"#"
+			"title":"modern influenced metal",
+	        "text":"AeSect are a modern influenced metal band based in Dublin, Ireland. Formed in the Summer of 2011, it has been the band's aim to make an impression right from the beginning. After regular gigging, the band garnered a name for itself amongst the live metal scene in Dublin, and began gigging regularly outside of their hometown. In 2013, the band released their first EP, titled 'Buried In The Undergrowth'. This 5 track EP was made available for free downlaod as soon as it came out. It was well recieved, and features staple tracks in AeSect's live set lists."
 		}
 	],
 	"music":[
@@ -16,22 +15,29 @@
 	"gigs":[
 		{
 			"address": "Dublin, Ireland",
-			"venue": "The Point",
-			"date": "12/09/2017",
+			"venue": "On The Rox",
+			"date": "22/12/2016",
+			"ticket":"http://www.ticketmaster.ie/",
+			"price": 20
+		},
+		{
+			"address": "Cork, Ireland",
+			"venue": "An Crúiscín Lán",
+			"date": "13/01/2017",
 			"ticket":"http://www.ticketmaster.ie/",
 			"price": 20
 		},
 		{
 			"address": "Dublin, Ireland",
-			"venue": "The Point",
-			"date": "12/09/2017",
+			"venue": "The Pint",
+			"date": "27/04/2017",
 			"ticket":"http://www.ticketmaster.ie/",
 			"price": 20
 		},
 		{
 			"address": "Dublin, Ireland",
-			"venue": "The Point",
-			"date": "12/09/2017",
+			"venue": "Fibber Magees",
+			"date": "02/11/2017",
 			"ticket":"http://www.ticketmaster.ie/",
 			"price": 20
 		}
@@ -39,28 +45,28 @@
 	"members":[
 		{
 			"id":"1",
-			"name":"Jimmy Page",
+			"name":"David Kennedy",
 			"instrument": "Guitar",
 			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo debitis dicta perspiciatis, ut, accusamus architecto. Sequi ab assumenda, quisquam iure aut. Officiis rem recusandae quia commodi, sequi, nobis perspiciatis officia.",
 			"birthdate": "12/22/1986"
 		},
 		{
 			"id":"2",
-			"name":"John Bonham",
+			"name":"Aidan O' Halloran",
 			"instrument": "Drums",
 			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero totam reprehenderit enim assumenda. Dolorem, unde est laborum nihil sunt hic quo repellat in numquam accusamus aut molestiae blanditiis? Enim.",
 			"birthdate": "12/22/1986"
 		},
 		{
 			"id":"3",
-			"name":"John Paul Jones",
+			"name":"Aidan Williams",
 			"instrument": "Bass",
 			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta non voluptatem. Numquam et voluptatem aperiam animi, in exercitationem nam, provident mollitia consectetur, doloribus, deserunt quo? Porro incidunt tempore quae?",
 			"birthdate": "12/22/1986"
 		},
 		{
 			"id":"4",
-			"name":"Robert Plant",
+			"name":"Luke Peters",
 			"instrument": "Vocals/Guitar",
 			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum distinctio numquam, modi maiores dolorem ex qui necessitatibus odio incidunt sint tempore hic, tempora molestias ipsam impedit beatae. Ducimus, voluptate.",
 			"birthdate": "12/22/1986"
@@ -69,9 +75,8 @@
 	"bio":[
 		{
 			"band-image":"http://placehold.it/1200x400",
-			"para1":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas.",
-			"para2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas.",
-			"para3":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores illo, recusandae rem at velit consequatur reiciendis exercitationem quasi officiis corrupti, neque veniam doloremque facere id? Voluptatum dolorum voluptates, reiciendis architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint magni, iure animi voluptatem obcaecati soluta quam in quibusdam voluptatibus itaque earum saepe est iusto nulla. Nobis perspiciatis temporibus, voluptas."
+			"para1":"AeSect are a modern influenced metal band based in Dublin, Ireland. Formed in the Summer of 2011, it has been the band's aim to make an impression right from the beginning. After regular gigging, the band garnered a name for itself amongst the live metal scene in Dublin, and began gigging regularly outside of their hometown. In 2013, the band released their first EP, titled 'Buried In The Undergrowth'. This 5 track EP was made available for free downlaod as soon as it came out. It was well recieved, and features staple tracks in AeSect's live set lists.",
+			"para2":"After some line up changes the band has returned to form in 2015, releasing their latest studio effort. This 6 track EP, entitled 'Devour The Earth' is the efforts of a band hungry to thrive and grow. It is a statement of intent for a band continuing to gain momentum."
 		}
 	]
 }

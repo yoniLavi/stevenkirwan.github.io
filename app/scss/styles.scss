@@ -12,3 +12,7 @@
 @import 'home';
 @import 'band';
 @import 'gigs';
+
+.music{
+	@include margin(60px 40px 60px 40px);
+}

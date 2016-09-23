@@ -51,3 +51,22 @@
 	@include margin(35px null null null);
 	@include padding(60px 40px 60px 40px);
 }
+
+.gigs{
+	background:$black;
+	float:left;
+	width:100%;
+	color:$white;
+	@include margin(null null 80px null);
+	@include padding(45px 40px 60px 40px);
+	ul{
+		li{
+			float:left;
+			width:25%;
+			.date{
+				font-size: em(32);
+				line-height: em(26);
+			}
+		}
+	}
+}

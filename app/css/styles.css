@@ -310,6 +310,20 @@ footer {
   margin-top: 35px;
   padding: 60px 40px; }
 
+.gigs {
+  background: #262626;
+  float: left;
+  width: 100%;
+  color: #f5f5f5;
+  margin-bottom: 80px;
+  padding: 45px 40px 60px; }
+  .gigs ul li {
+    float: left;
+    width: 25%; }
+    .gigs ul li .date {
+      font-size: 2em;
+      line-height: 1.625em; }
+
 .band-page .about {
   padding-top: 80px;
   padding-bottom: 10px; }
@@ -330,3 +344,6 @@ footer {
     font-size: 1.625em;
     font-weight: bold;
     padding-top: 40px; }
+
+.music {
+  margin: 60px 40px; }
