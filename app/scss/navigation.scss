@@ -31,6 +31,7 @@ nav {
 
 @media all and (max-width: 800px) {
   .nav {
+    display:block;
     flex-direction: column;
   }
 
