@@ -1,6 +1,10 @@
 footer{
 	color:$light-grey;
-	@include margin(40px null null null);
+	h4{
+		&:before{
+			background-color:$white;
+		}
+	}
 	.footer-top{
 		background: $grey;
 		@include padding(20px null 20px null);

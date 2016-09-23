@@ -22,6 +22,14 @@ bandApp.controller('MusicController', function($scope) {
     $scope.title = "Music";
 });
 
-bandApp.controller('GigController', function($scope) {
+bandApp.controller('GigController', function($scope, $http) {
     $scope.title = "Gigs";
+
+    $http.get("js/band.json").then(function (response) {
+		$scope.siteContent = response.data;
+	});
+});
+
+bandApp.controller('MemberController', function($scope, $http, $routeParams, $location) {
+
 });

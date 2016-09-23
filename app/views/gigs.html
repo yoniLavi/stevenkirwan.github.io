@@ -1,3 +1,20 @@
-<div class="container">
+<div class="container-fluid">
 	<h1>{{ title }}</h1>
+	<div ng-repeat="gig in siteContent.gigs">
+		<div class="gig-item">
+			<div class="date col-md-1">
+				{{ gig.date | date:'mediumDate' }}
+			</div>
+			<div class="meta col-md-6">
+				{{ gig.address }}
+				{{ gig.venue }}
+			</div>
+			<div class="price col-md-3">
+				{{ gig.price | currency:'€'}}
+			</div>
+			<div class="ticket col-md-2">
+				<a href="{{ gig.ticket }}" class="btn">Buy Ticket</a>
+			</div>
+		</div>
+	</div>
 </div>

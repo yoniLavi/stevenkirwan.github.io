@@ -1,20 +1,45 @@
 .intro{
 	background:$white;
 	float:left;
-	@include margin(35px null 35px null);
-	@include padding(10px 15px 35px 15px);
+	@include margin(null null 35px null);
+	@include padding(35px 15px 55px 15px);
 }
 
 .band{
-	figcaption{
-		font-family:$montserrat;
-		font-size: em(20);
-		font-weight:bold;
-		@include margin(15px null 10px 10px);
-		span{
-			display:block;
-			font-size: em(12);
-			@include margin(5px null null null);
+	@include padding(60px 0px 60px 0px);
+	figure{
+		box-shadow: 0 0.125rem 0.313rem rgba( 0, 0, 0, .2 );
+		@include transition(all 0.5s ease-out);
+		position:relative;
+		&:hover{
+			box-shadow: 0 0.125rem 0.313rem rgba( 0, 0, 0, .4 );
+		}
+		img{    			
+			@include border-top-radius(5px);
+		}
+		figcaption{
+			background:$white;
+			@include border-bottom-radius(5px);
+			color:$black;
+			font-size: em(20);
+			font-weight:bold;
+			@include margin(null null 10px null);
+			@include padding(20px 20px 30px 20px);
+				&:before{
+		        content: '';
+			    height: 1px;
+			    background-color: $black;
+			    width: 30px;
+			    position: absolute;
+			    left: 20px;
+			    bottom: 25px;
+			}
+			span{
+				display:block;
+				font-size: em(14);
+				font-weight:300;
+				@include margin(5px null null null);
+			}
 		}
 	}
 }
@@ -23,6 +48,6 @@
 	background:$black;
 	color:$white;
 	float:left;
-	@include margin(35px null 35px null);
-	@include padding(10px 15px 35px 15px);
+	@include margin(35px null null null);
+	@include padding(60px 40px 60px 40px);
 }

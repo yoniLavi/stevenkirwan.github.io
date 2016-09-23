@@ -1,26 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Cardo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Oswald:300,400,700);
 
 // Font Variables
-$montserrat: 'Montserrat', sans-serif;   
-$cardo: 'Cardo', serif;
+$oswald: 'Oswald', sans-serif;
+$droid: 'Droid Serif', serif;
 
 body{
     color:$black;
-	font-family:$cardo;
+	font-family:$droid;
 	font-size: em(16);
-	line-height: em(18);
+	line-height: em(24);
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:$montserrat;
+	font-family:$oswald;
+	letter-spacing: 0.2em;
     @include margin(10px null 10px null);
     text-transform: uppercase;
 }
 
+h2, h3, h4, h5, h6{
+	position: relative;
+	@include margin(null null 30px null);
+	&:before{
+        content: '';
+	    height: 3px;
+	    background-color: $black;
+	    width: 60px;
+	    position: absolute;
+	    left: 0;
+	    bottom: -10px;
+	}
+}
+
 h1{
 	font-size: em(36);
-	line-height: em(36);
+	line-height: em(24);
 }
 
 h2{
@@ -46,6 +61,15 @@ h5{
 h6{
 	font-size: em(16);
 	line-height: em(18);
+}
+
+a, figcaption{
+	font-family:$oswald;
+	@include transition(all 0.5s ease-out);
+}
+
+a:hover{
+	text-decoration:none;
 }
 
 

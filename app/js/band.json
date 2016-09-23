@@ -2,7 +2,7 @@
 	"intro":[
 		{
 			"title":"Lorem ipsum",
-	        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim delectus porro magnam, tempora officia facilis rem corporis repellendus laborum. Impedit ullam quasi quia ex amet, adipisci ad cumque ratione!",
+	        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugit labore laborum assumenda repellat cupiditate sit, voluptas dicta natus quae possimus rem illo odio ullam, sint facilis quas pariatur commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim delectus porro magnam, tempora officia facilis rem corporis repellendus laborum. Impedit ullam quasi quia ex amet, adipisci ad cumque ratione!",
 	        "url":"#"
 		}
 	],
@@ -15,10 +15,25 @@
 	],
 	"gigs":[
 		{
-			"location": "Dublin, Ireland",
+			"address": "Dublin, Ireland",
 			"venue": "The Point",
 			"date": "12/09/2017",
-			"ticket":"http://www.ticketmaster.ie/"
+			"ticket":"http://www.ticketmaster.ie/",
+			"price": 20
+		},
+		{
+			"address": "Dublin, Ireland",
+			"venue": "The Point",
+			"date": "12/09/2017",
+			"ticket":"http://www.ticketmaster.ie/",
+			"price": 20
+		},
+		{
+			"address": "Dublin, Ireland",
+			"venue": "The Point",
+			"date": "12/09/2017",
+			"ticket":"http://www.ticketmaster.ie/",
+			"price": 20
 		}
 	],
 	"members":[

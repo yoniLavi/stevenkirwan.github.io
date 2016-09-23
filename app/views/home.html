@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container-fluid">
 
-	<section class="intro">
-		<div class="col-md-10">
+	<section class="intro row">
+		<div class="col-md-12">
 			<h2>{{ siteContent.intro[0].title }}</h2>
 			<p>{{ siteContent.intro[0].text }}</p>
 			<a ng-href="/#/band" class="btn">Learn more</a>
@@ -11,14 +11,16 @@
 	<section class="band row">
 		<div class="col-md-12"><h3>Band Members</h3></div>
 		<div class="col-md-3" ng-repeat="member in siteContent.members">
-			<figure>
-				<a ng-href="/#/member/{{ member.id }}"><img src="images/{{ member.id }}.jpg" alt="{{ member.name }}"></a>
-				<figcaption>{{ member.name }} <span>{{ member.instrument}}</span></figcaption>
-			</figure>
+			<a ng-href="/#/member/{{member.id}}">
+				<figure>
+					<img src="images/{{ member.id }}.jpg" alt="{{ member.name }}">
+					<figcaption>{{ member.name }} <span>{{ member.instrument}}</span></figcaption>
+				</figure>
+			</a>
 		</div>
 	</section>
-
-	<section class="book text-center">
+	
+	<section class="book text-center row">
 		<div class="col-md-12">
 			<h3>Book Us</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, explicabo, voluptatibus. Ipsum voluptates vitae dolor ratione, repellat reiciendis ex minus at assumenda magni, non, tenetur nostrum cum perspiciatis voluptatum dolorem.</p>

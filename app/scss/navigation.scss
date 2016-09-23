@@ -11,12 +11,16 @@ nav {
 }
 
 .item {
-  color: $black;
-  font-family:$montserrat;
+  color: $white;
+  font-size: em(18);
+  font-weight:bold;
+  letter-spacing: 0.2em;
   @include padding(24px);
   text-decoration: none;
-  &:hover{
-    color:$grey;
+  text-shadow: 0 0.125rem 0.313rem rgba( 0, 0, 0, .3 );
+  text-transform: uppercase;
+  &:hover, &:active, &:focus{
+    color:$light-grey;
     text-decoration: none;
   }
 }

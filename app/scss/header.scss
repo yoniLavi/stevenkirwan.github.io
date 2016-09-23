@@ -8,15 +8,16 @@ header{
 		@include padding(10% 20% 35px 20%);
 		h1{
 			color:$white;
-			text-shadow: 2px 2px 4px $black;
+			text-shadow: 0 0.125rem 0.313rem rgba( 0, 0, 0, .8 );
 		}
 		.btn{
-			border:2px solid $white;
-			background:rgba(0, 0, 0, 0.6);
-			font-size: em(20);
-			font-weight:400;
+			background:$black;
+			border:2px solid $black;
 			@include margin(null 20px null null);
-
+			&:hover{
+				background:rgba( 0, 0, 0, .2 );
+				border:2px solid $white;
+			}
 		}
 	}
 }

@@ -22,5 +22,9 @@ bandApp.config(function($routeProvider) {
     .when("/gigs", {
         templateUrl : "views/gigs.html",
         controller: 'GigController'
+    })
+    .when("/member/:memberID", {
+        templateUrl : "views/member.html",
+        controller: 'MemberController'
     });
 });
