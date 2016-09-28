@@ -5,7 +5,7 @@ header{
 	background-repeat:no-repeat;
 	text-align:center;
 	.cta{
-		@include padding(10% 20% 35px 20%);
+		@include padding(5% 20% 35px 20%);
 		h1{
 			color:$white;
 			text-shadow: 0 0.125rem 0.313rem rgba( 0, 0, 0, .8 );
