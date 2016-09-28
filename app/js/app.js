@@ -24,7 +24,7 @@ bandApp.config(function($routeProvider) {
         controller: 'GigController'
     })
     .when("/member/:memberID", {
-        templateUrl : "views/member.html",
+        templateUrl : "views/band_member.html",
         controller: 'MemberController'
     });
 });
